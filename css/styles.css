@@ -426,7 +426,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     color: #FFF;
     margin-bottom: 16px;
 }
-.social-link-list footer {
+.social-link-list .footer {
     display: flex;
     gap: 16px;
 }
