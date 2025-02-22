@@ -369,9 +369,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     position: relative;
     overflow: hidden;
 }
-.element-container:hover p{
-transform: translateY(100%);
-}
+
 .overflow-text {
     position: absolute;
     top: 0;
@@ -403,7 +401,8 @@ transform: translateY(100%);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%);
 }
 
 .element-name {
@@ -467,5 +466,10 @@ transform: translateY(100%);
 .social-link-list.footer {
     display: flex;
     gap: 16px;
+}
+
+.social-media.footer-list:hover,
+.social-media.footer-list:focus{
+    background-color: #31d0aa;
 }
 /* #endregion footer */
