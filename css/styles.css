@@ -333,15 +333,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     width: 40px;
     height: 40px;
 }
-.social-media:hover{
-        background-color: #404bbf;
-}
-
-.social-media:focus,
-.social-media:active{
-    background-color:#404bbf;
-}
-
 
 .social-media {
     width: 100%;
@@ -352,6 +343,11 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     align-items: center;
     justify-content: center;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media:hover,
+.social-media:focus {
+    background-color: #404bbf;
 }
 
 .soc-icon {
@@ -372,6 +368,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .element-container {
     position: relative;
     overflow: hidden;
+}
+.element-container:hover .overflow-text {
+    transform: translateY(0%);
 }
 
 .overflow-text {
@@ -408,8 +407,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(100%);
 }
 
 .element-name {
@@ -427,9 +424,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     letter-spacing: 0.02em;
 }
 
-.element-describe:hover{
-    transform: translateY(0%);
-}
 
 /* #endregion our portfolio*/
 /* #region footer */
@@ -473,13 +467,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     gap: 16px;
 }
 
-.social-media.footer-list:hover {
- background-color: #31d0aa;
-    }
-
-.social-media.footer-list:focus,
-.social-media.footer-list:active
-{
-background-color: #31d0aa;
-}
+.social-media.footer-list:hover,
+.social-media.footer-list:focus {
+background-color: #31d0aa;}
 /* #endregion footer */
