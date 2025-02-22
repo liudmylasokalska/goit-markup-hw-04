@@ -335,7 +335,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 .social-media:hover,
 .social-media:focus{
-    background-color: #404bbf;
+    background-color:#404bbf;
 }
 
 
@@ -369,6 +369,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     position: relative;
     overflow: hidden;
 }
+.element-container:hover p{
+transform: translateY(100%);
+}
 .overflow-text {
     position: absolute;
     top: 0;
@@ -400,7 +403,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    transform: translateY(100%);
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -461,10 +463,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     color: #FFF;
     margin-bottom: 16px;
 }
-.social-media.footer-list:hover,
-.social-media.footer-list:focus{
-    background-color: #31d0aa;
-}
+
 .social-link-list.footer {
     display: flex;
     gap: 16px;
