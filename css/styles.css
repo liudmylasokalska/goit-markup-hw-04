@@ -333,7 +333,10 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     width: 40px;
     height: 40px;
 }
-.social-media:hover,
+.social-media:hover {
+    background-color: #404bbf;
+}
+
 .social-media:focus {
     background-color: #404bbf;
 }
@@ -345,6 +348,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-icon {
@@ -369,6 +373,13 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 .element {
     width: calc((100% - 48px) /3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.element:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.element-describe:hover {
+    transform: translateY(0%);
 }
 
 .products-name {
