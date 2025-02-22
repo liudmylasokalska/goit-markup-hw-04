@@ -333,8 +333,12 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     width: 40px;
     height: 40px;
 }
-.social-media:hover,
-.social-media:focus{
+.social-media:hover{
+        background-color: #404bbf;
+}
+
+.social-media:focus,
+.social-media:active{
     background-color:#404bbf;
 }
 
@@ -373,6 +377,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .overflow-text {
     position: absolute;
     top: 0;
+    left:0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -381,6 +386,8 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     background-color: #4d5ae5;
     height: 100%;
     width: 100%; 
+    transform: translateY(100%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .products-list {
@@ -418,8 +425,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    transform: translateY(100%);
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .element-describe:hover{
@@ -468,8 +473,13 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     gap: 16px;
 }
 
-.social-media.footer-list:hover,
-.social-media.footer-list:focus{
-    background-color: #31d0aa;
+.social-media.footer-list:hover {
+ background-color: #31d0aa;
+    }
+
+.social-media.footer-list:focus,
+.social-media.footer-list:active
+{
+background-color: #31d0aa;
 }
 /* #endregion footer */
