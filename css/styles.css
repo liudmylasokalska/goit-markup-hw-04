@@ -313,6 +313,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .social-icons-container {
@@ -369,7 +370,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     position: relative;
     overflow: hidden;
 }
-.element-container:hover .overflow-text {
+.element:hover .overflow-text {
     transform: translateY(0%);
 }
 
@@ -428,6 +429,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 /* #endregion our portfolio*/
 /* #region footer */
 .footer-page {
+    padding: 100px 0;
     background-color: #2e2f42;
 }
 .footer-container {
@@ -441,9 +443,16 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .footer-logo-p {
     margin-right: 120px;
 }
-.logo-web{
+.logo-web-footer{
     margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     display: inline-block;
+    margin-right: 76px;
 }
 
 .footer-p {
@@ -470,4 +479,11 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .social-media.footer-list:hover,
 .social-media.footer-list:focus {
 background-color: #31d0aa;}
+
+.social-link-list.footer {
+    display: flex;
+}
+
+
+
 /* #endregion footer */
